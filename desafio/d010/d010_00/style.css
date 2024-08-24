@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url("/desafio/d010/fontes/idroid.otf");
+}
+
+body {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(0, 36, 0), rgb(0, 211, 0));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.523);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.498);
+}
+
+article>h1,h2 {
+    font-family: 'idroid';
+    color: rgb(2, 81, 2);
+}
+
+article>h1 {
+    font-size: 2em;
+}
+nav {
+    text-align: left;
+}
+
+.destaque {
+    color: rgb(2, 81, 2);
+    font-weight: bold;
+    
+}
+a {
+    text-decoration: none;
+}
+nav > a {
+    color: white;
+    padding: 5px 10px 10px 10px;
+}
+
+nav > a:hover {
+    background-color: rgba(201, 30, 30, 0.783);
+    border-radius: 10px 10px 0px 0px;}
+
+main {
+    background-color: white;
+    padding: 0px 0px 20px 0px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.204);;
+}
+
+#fundovideo {
+    background-color: rgb(3, 63, 3);
+    margin: 0px;
+    padding: 0px;
+}
+#extra {
+    background-color: lightgreen;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+}
+
+p {
+    text-indent: 30px;
+    margin: 20px;
+}
+
+h1, h2 {
+
+}
+
+h1 {
+    margin: 0px 20px 20px 20px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, lightgreen, white);
+    margin: 20px;
+}
+
+#titulo {
+    background-color: green;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+#titulo > p {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#titulo,#extra {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: green;
+
+}
+footer > p {
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+div {
+    display: inline-block;
+    text-align: left;
+    padding-right: 100px;
+}
+
+picture, .imagem {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+li {
+    text-decoration: underline;
+}
